@@ -1,0 +1,20 @@
+name: GitHub Workflow JLint
+
+on: pull_request
+
+jobs:
+  checkstyle_job:
+    runs-on: macos-latest
+    name: JLint Checker
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Run reviewdog with JLint
+      env:
+        LANG: de_DE.UTF-8
+        CHECKSTYLE_WORKDIR: 'src/main'
+        CHECKSTYLE_CONFIG: 'sun-checks-custom.xml'
+        REVIEWDOG_LOGLEVEL: 'error'
+        REVIEWDOG_REPORTER: 'github-pr-check'
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: ./.github/jlint.sh
