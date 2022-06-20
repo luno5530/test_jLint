@@ -1,0 +1,11 @@
+name: GitHub Workflow
+
+on: [pull_request]
+
+jobs:
+  build:
+    name: Test Cases
+    runs-on: [self-hosted, java11, gradle]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: education/autograding@v1

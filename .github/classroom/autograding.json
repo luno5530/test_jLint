@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "name": "ArrayListTest.testIsEmpty",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.ArrayListTest.testIsEmpty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ArrayListTest.testSize",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.ArrayListTest.testSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ArrayListTest.testAddGet",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.ArrayListTest.testAddGet",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ArrayListTest.testAddExpand",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.ArrayListTest.testAddExpand",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ArrayListTest.testAddNull",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.ArrayListTest.testAddNull",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ArrayListTest.testNull",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.ArrayListTest.testNull",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ArrayListTest.testGeneric",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.ArrayListTest.testGeneric",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "ArrayListTest.testRemove",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.ArrayListTest.testRemove",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testIsEmpty",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testIsEmpty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testSize",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testSize",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testAddGet",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testAddGet",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testNull",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testNull",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testGetIndexTooSmall",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testGetIndexTooSmall",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testGetIndexTooLarge",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testGetIndexTooLarge",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testAddIndexTooSmall",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testAddIndexTooSmall",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testAddIndexTooLarge",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testAddIndexTooLarge",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "SLListTest.testRemove",
+      "setup": "",
+      "run": "gradle test --tests de.fuas.algorithms.SLListTest.testRemove",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
